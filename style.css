@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: white
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.imagem-do-cabecalho {
+    height: 72px;
+}
+
+.menu-do-cabecalho {
+    display: flex;
+    gap: 32px;
+}
+
+.item-menu {
+    font-family: 'Sarala', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+.conteudo {
+    border-top: 1.0px solid #000000;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.conteudo-principal-escrtio{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.titulo-do-conteudo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #0031d4d0;
+    font-size: 64px;
+}
+
+.subtitulo-do-conteudo {
+    font-family: "Sarala", sans-serif;
+    color: #242424;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.botao-do-conteudo {
+    background-color: #0031d4d0;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: "Sarala", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 24px;
+}
+.botao-do-conteudo:hover {
+    background-color: rgb(81, 151, 255)
+}
+
+.imagem-do-conteudo {
+    height: 430px;
+    padding-top: 32px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.titulo-do-conteudo-secundario {
+    border-top: 0.4px solid #000000;
+    padding-top: 48px;
+    font-size: 24px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.paragrafo-secundario {
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    color: #242424;
+    font-weight: 100;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 1.0px solid #000000;
+    background-image: url(https://imagens.ebc.com.br/hBWdxpk9slqbjOi9KpvZNdH3YNY=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/cruzeiro_torcida_0.jpg?itok=IZn5WzJ_);
+    background-size: cover;
+    background-position: center center;
+}
+
+.imagem-do-rodape {
+    height: 128px;
+    display: block;
+    margin: 0 auto;
+}
